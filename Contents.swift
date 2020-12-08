@@ -32,4 +32,4 @@ var car = vehicle(brand: "Chevrolet", release: 2021, luggage: 100, engine: .star
 var truck = vehicle(brand: "Howo", release: 2018, luggage: 500, engine: .stop, windows: .open, filledLuggage: 500)
 car.engine = .start
 truck.windows = .close
-print("Машина марки \(car.brand) выпущена в \(car.release).")
+print("Машина марки \(car.brand) выпущена в \(car.release) году")
